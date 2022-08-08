@@ -37,6 +37,10 @@ class AddFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.imgBack.setOnClickListener {
+            findNavController().navigate(R.id.action_addFragment_to_homeFragment)
+        }
+
         args.account?.let {
             binding.apply {
                 etCompany.setText(it.company)
