@@ -5,56 +5,82 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
+import com.example.password_manager_room.MainActivity
 import com.example.password_manager_room.R
+import com.example.password_manager_room.data.Account
+import com.example.password_manager_room.databinding.FragmentAddBinding
+import com.example.password_manager_room.mvvm.AccountViewModel
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [AddFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class AddFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+
+    private lateinit var binding : FragmentAddBinding
+    private lateinit var viewModel : AccountViewModel
+    val args by navArgs<AddFragmentArgs>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+
+        viewModel = (activity as MainActivity).viewModel
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_add, container, false)
+    ): View {
+        binding = FragmentAddBinding.inflate(layoutInflater)
+        return binding.root
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment AddFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            AddFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.imgBack.setOnClickListener {
+            findNavController().navigate(R.id.action_addFragment_to_homeFragment)
+        }
+
+        args.account?.let {
+            binding.apply {
+                etCompany.setText(it.company)
+                etEmail.setText(it.email)
+                etPassword.setText(it.password)
+            }
+            binding.btnAdd.text = "Update"
+            binding.imgDelete.visibility = View.VISIBLE
+        }
+
+        binding.apply {
+            binding.btnAdd.setOnClickListener {
+                val id = args.account?.id ?: 0
+                val email = etEmail.text.toString()
+                val company = etCompany.text.toString()
+                val password = etPassword.text.toString()
+
+                Account(id, email, company, password).also{ account ->
+                    if (email.isEmpty() || company.isEmpty() || password.isEmpty()){
+                        Toast.makeText(requireContext(), "Please fill out all fields", Toast.LENGTH_SHORT).show()
+                        return@setOnClickListener
+                    }
+                    viewModel.upsertAccount(account)
+                    findNavController().navigateUp()
                 }
             }
+        }
+
+        binding.apply {
+            binding.imgDelete.setOnClickListener{
+                val accountId = args.account!!.id
+                val email = etEmail.text.toString()
+                val password = etPassword.text.toString()
+                val company = etCompany.text.toString()
+
+                Account(accountId, email, company, password).also{
+                    viewModel.deleteAccount(it)
+                    findNavController().navigateUp()
+                }
+            }
+        }
     }
 }
