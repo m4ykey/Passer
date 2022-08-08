@@ -30,6 +30,7 @@ class FingerActivity : AppCompatActivity() {
             override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult?) {
                 super.onAuthenticationSucceeded(result)
                 startActivity(Intent(this@FingerActivity, MainActivity::class.java))
+                finish()
             }
         }
 
