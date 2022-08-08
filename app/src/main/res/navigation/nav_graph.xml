@@ -22,5 +22,10 @@
         <action
             android:id="@+id/action_addFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <argument
+            android:name="account"
+            app:argType="com.example.password_manager_room.data.Account"
+            app:nullable="true"
+            android:defaultValue="@null"/>
     </fragment>
 </navigation>
