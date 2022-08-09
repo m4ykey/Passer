@@ -2,7 +2,6 @@ package com.example.password_manager_room
 
 import android.app.KeyguardManager
 import android.content.Context
-import android.content.DialogInterface
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.hardware.biometrics.BiometricPrompt
@@ -14,7 +13,6 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityCompat
-import androidx.core.content.ContentProviderCompat.requireContext
 
 class FingerActivity : AppCompatActivity() {
 
@@ -41,9 +39,8 @@ class FingerActivity : AppCompatActivity() {
 
         checkBiometricSupport()
 
-        val btn : Button = findViewById(R.id.button)
-        btn.setOnClickListener {
-
+        val btnUnlock : Button = findViewById(R.id.btnUnlock)
+        btnUnlock.setOnClickListener {
             val biometricPrompt = BiometricPrompt.Builder(this)
                 .setTitle("Wprowadź blokadę ekranu, aby uzyskać dostęp do aplikacji")
                 .setDescription("Odblokuj, aby kontynuować")
