@@ -7,4 +7,6 @@
     <string name="search">Szukaj</string>
     <string name="update">Aktualizuj</string>
     <string name="allfields">Proszę wypełnić wszystkie puste pola</string>
+    <string name="application_passger_blocked">Aplikacja PASSGER zablokowana</string>
+    <string name="unlock">Odblokuj</string>
 </resources>

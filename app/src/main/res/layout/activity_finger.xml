@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Application PASSGER blocked"
+        android:text="@string/application_passger_blocked"
         android:textSize="32sp"
         android:textColor="@color/text_color"
         android:textStyle="bold|italic"
@@ -43,5 +43,5 @@
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Unlock" />
+        android:text="@string/unlock" />
 </androidx.constraintlayout.widget.ConstraintLayout>

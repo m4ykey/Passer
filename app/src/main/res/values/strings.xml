@@ -8,4 +8,6 @@
     <string name="search">Search</string>
     <string name="update">Update</string>
     <string name="allfields">Please fill out all fields</string>
+    <string name="application_passger_blocked">Application PASSGER blocked</string>
+    <string name="unlock">Unlock</string>
 </resources>
