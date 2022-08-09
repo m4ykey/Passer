@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FingerActivity">
+
+    <ImageView
+        android:id="@+id/txtTitle"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/ic_baseline_lock_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application PASSGER blocked"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/txtT"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnUnlock"
+        android:clickable="true"
+        app:layout_constraintTop_toBottomOf="@+id/txtT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unlock" />
+</androidx.constraintlayout.widget.ConstraintLayout>
