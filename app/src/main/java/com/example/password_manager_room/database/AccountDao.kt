@@ -16,7 +16,7 @@ interface AccountDao {
     @Query("SELECT * FROM account ORDER BY id DESC")
     fun allAccount() : Flow<List<Account>>
 
-    @Query("SELECT * FROM account WHERE email LIKE '%' ||:searchQuery||'%'")
+    @Query("SELECT * FROM account WHERE company LIKE '%' ||:searchQuery||'%'")
     fun searchInAccount(searchQuery : String) : Flow<List<Account>>
 
     @Query("DELETE FROM account")

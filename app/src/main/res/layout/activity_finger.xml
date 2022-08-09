@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg"
     tools:context=".FingerActivity">
 
     <ImageView
         android:id="@+id/txtTitle"
+        app:tint="@color/img_color"
         android:layout_width="128dp"
         android:layout_height="128dp"
         android:layout_marginTop="150dp"
@@ -21,6 +23,7 @@
         android:layout_height="wrap_content"
         android:text="Application PASSGER blocked"
         android:textSize="32sp"
+        android:textColor="@color/text_color"
         android:textStyle="bold|italic"
         android:id="@+id/txtT"
         android:textAlignment="center"
@@ -31,6 +34,8 @@
     <Button
         android:id="@+id/btnUnlock"
         android:clickable="true"
+        android:backgroundTint="@color/fab"
+        android:textColor="@color/text_color_btn"
         app:layout_constraintTop_toBottomOf="@+id/txtT"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
