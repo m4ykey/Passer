@@ -18,7 +18,7 @@ class AddFragment : Fragment() {
 
     private lateinit var binding : FragmentAddBinding
     private lateinit var viewModel : AccountViewModel
-    val args by navArgs<AddFragmentArgs>()
+    private val args by navArgs<AddFragmentArgs>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
