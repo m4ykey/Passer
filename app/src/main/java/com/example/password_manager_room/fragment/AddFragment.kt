@@ -13,7 +13,9 @@ import com.example.password_manager_room.R
 import com.example.password_manager_room.data.Account
 import com.example.password_manager_room.databinding.FragmentAddBinding
 import com.example.password_manager_room.mvvm.AccountViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class AddFragment : Fragment() {
 
     private lateinit var binding : FragmentAddBinding

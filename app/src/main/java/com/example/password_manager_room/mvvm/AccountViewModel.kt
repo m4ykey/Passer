@@ -5,11 +5,14 @@ import androidx.lifecycle.viewModelScope
 import androidx.room.Query
 import com.example.password_manager_room.data.Account
 import com.example.password_manager_room.repo.AccountRepository
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class AccountViewModel(
+@HiltViewModel
+class AccountViewModel @Inject constructor(
     private val accountRepository: AccountRepository
 ) : ViewModel() {
 

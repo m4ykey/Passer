@@ -13,7 +13,9 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityCompat
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class FingerActivity : AppCompatActivity() {
 
     private var cancellationSignal : CancellationSignal? = null
