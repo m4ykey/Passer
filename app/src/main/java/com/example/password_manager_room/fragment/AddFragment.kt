@@ -49,7 +49,7 @@ class AddFragment : Fragment() {
                 etEmail.setText(it.email)
                 etPassword.setText(it.password)
             }
-            binding.btnAdd.text = "Update"
+            binding.btnAdd.text = getString(R.string.update)
             binding.imgDelete.visibility = View.VISIBLE
         }
 
@@ -62,7 +62,7 @@ class AddFragment : Fragment() {
 
                 Account(id, email, company, password).also{ account ->
                     if (email.isEmpty() || company.isEmpty() || password.isEmpty()){
-                        Toast.makeText(requireContext(), "Please fill out all fields", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(requireContext(), getString(R.string.allfields), Toast.LENGTH_SHORT).show()
                         return@setOnClickListener
                     }
                     viewModel.upsertAccount(account)

@@ -33,7 +33,7 @@
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="txtCompany" />
+            android:text="" />
 
         <TextView
             android:id="@+id/txtEmail"
@@ -43,6 +43,6 @@
             app:layout_constraintStart_toStartOf="@+id/txtCompany"
             android:textSize="17sp"
             android:textColor="@color/text_color"
-            android:text="txtEmail" />
+            android:text="" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

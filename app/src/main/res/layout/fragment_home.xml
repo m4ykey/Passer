@@ -10,7 +10,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-        android:hint="Search"
+        android:hint="@string/search"
         android:id="@+id/search"
         android:layout_marginTop="10dp"
         app:startIconDrawable="@drawable/ic_baseline_search_24"
@@ -51,5 +51,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_margin="20dp"
-        android:src="@drawable/ic_baseline_add_24" />
+        android:src="@drawable/ic_baseline_add_24"
+        android:focusable="true" />
 </androidx.constraintlayout.widget.ConstraintLayout>
