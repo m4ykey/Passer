@@ -4,12 +4,13 @@ import com.example.password_manager_room.data.Account
 import com.example.password_manager_room.database.AccountDao
 import com.example.password_manager_room.database.AccountDatabase
 import kotlinx.coroutines.flow.Flow
+import javax.inject.Inject
 
-class AccountRepository(
+class AccountRepository @Inject constructor(
     accountDatabase: AccountDatabase
 ) {
 
-    val accountDao = accountDatabase.accountDao
+    private val accountDao = accountDatabase.accountDao
 
     suspend fun upsertNote(account: Account) = accountDao.upsertAccount(account)
 

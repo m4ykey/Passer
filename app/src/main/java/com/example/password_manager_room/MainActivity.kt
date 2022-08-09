@@ -7,7 +7,9 @@ import com.example.password_manager_room.database.AccountDatabase
 import com.example.password_manager_room.mvvm.AccountViewModel
 import com.example.password_manager_room.mvvm.AccountViewModelProvider
 import com.example.password_manager_room.repo.AccountRepository
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     val viewModel : AccountViewModel by lazy {

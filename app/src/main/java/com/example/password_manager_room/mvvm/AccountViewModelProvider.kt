@@ -3,8 +3,9 @@ package com.example.password_manager_room.mvvm
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.password_manager_room.repo.AccountRepository
+import javax.inject.Inject
 
-class AccountViewModelProvider(
+class AccountViewModelProvider @Inject constructor(
     private val accountRepository: AccountRepository
 ) : ViewModelProvider.Factory {
 
