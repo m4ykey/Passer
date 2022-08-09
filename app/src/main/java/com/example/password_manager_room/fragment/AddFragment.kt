@@ -52,7 +52,7 @@ class AddFragment : Fragment() {
         }
 
         binding.apply {
-            binding.btnAdd.setOnClickListener {
+            btnAdd.setOnClickListener {
                 val id = args.account?.id ?: 0
                 val email = etEmail.text.toString()
                 val company = etCompany.text.toString()
@@ -70,7 +70,7 @@ class AddFragment : Fragment() {
         }
 
         binding.apply {
-            binding.imgDelete.setOnClickListener{
+            imgDelete.setOnClickListener{
                 val accountId = args.account!!.id
                 val email = etEmail.text.toString()
                 val password = etPassword.text.toString()
