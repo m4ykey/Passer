@@ -39,4 +39,10 @@ class AccountViewModel @Inject constructor(
             }
         }
     }
+
+    fun deleteAllAccounts() {
+        viewModelScope.launch {
+            accountRepository.deleteAllAccounts()
+        }
+    }
 }

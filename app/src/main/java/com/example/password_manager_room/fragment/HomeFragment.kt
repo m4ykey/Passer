@@ -54,6 +54,10 @@ class HomeFragment : Fragment() {
             }
         }
 
+        binding.imgDeleteAll.setOnClickListener {
+            viewModel.deleteAllAccounts()
+        }
+
         binding.etSearch.addTextChangedListener {
             viewModel.searchInAccount(it.toString().trim())
         }
