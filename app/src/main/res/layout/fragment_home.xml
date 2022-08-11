@@ -8,10 +8,12 @@
     tools:context=".fragment.HomeFragment">
 
     <ImageView
+        android:backgroundTint="@color/img_color"
         android:id="@+id/imgDeleteAll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_delete_24"
+        android:layout_marginTop="10dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@+id/search"
         app:layout_constraintBottom_toBottomOf="@+id/search"

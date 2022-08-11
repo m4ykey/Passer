@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Passger</string>
     <string name="add">Dodaj</string>
     <string name="password">Hasło</string>
     <string name="email">Email</string>

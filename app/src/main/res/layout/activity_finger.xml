@@ -13,7 +13,7 @@
         android:layout_width="128dp"
         android:layout_height="128dp"
         android:layout_marginTop="150dp"
-        android:src="@drawable/ic_baseline_lock_24"
+        android:src="@drawable/ic_logo_black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,8 +24,8 @@
         android:text="@string/application_passger_blocked"
         android:textSize="32sp"
         android:textColor="@color/text_color"
-        android:textStyle="bold|italic"
         android:id="@+id/txtT"
+        android:fontFamily="@font/work_sans_semibold"
         android:textAlignment="center"
         app:layout_constraintTop_toBottomOf="@+id/txtTitle"
         app:layout_constraintStart_toStartOf="parent"
