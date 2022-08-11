@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.password_manager_room.data.Account
 
-@Database(entities = [Account::class], version = 1)
+@Database(entities = [Account::class], version = 1, exportSchema = false)
 abstract class AccountDatabase : RoomDatabase(){
 
     abstract val accountDao : AccountDao

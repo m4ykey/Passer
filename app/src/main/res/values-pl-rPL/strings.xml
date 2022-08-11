@@ -10,4 +10,9 @@
     <string name="allfields">Proszę wypełnić wszystkie puste pola</string>
     <string name="application_passger_blocked">Aplikacja PASSGER zablokowana</string>
     <string name="unlock">Odblokuj</string>
+    <string name="home">Ekran Główny</string>
+    <string name="generate_password">Wygeneruj Hasło</string>
+    <string name="if_you_have_no_idea_what_password_to_enter_generate_it">Jeśli nie masz pojęcia jakie hasło wpisać, wygeneruj je</string>
+    <string name="generate_it">Wygeneruj je</string>
+    <string name="generate">Wygeneruj</string>
 </resources>

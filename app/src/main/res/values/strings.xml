@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Passger</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="add">Add</string>
     <string name="password">Password</string>
     <string name="email">Email or Username</string>
@@ -10,4 +9,9 @@
     <string name="allfields">Please fill out all fields</string>
     <string name="application_passger_blocked">Application PASSGER blocked</string>
     <string name="unlock">Unlock</string>
+    <string name="home">Home</string>
+    <string name="generate_password">Generate Password</string>
+    <string name="if_you_have_no_idea_what_password_to_enter_generate_it">If you have no idea what password to enter, generate it</string>
+    <string name="generate_it">Generate It</string>
+    <string name="generate">Generate</string>
 </resources>

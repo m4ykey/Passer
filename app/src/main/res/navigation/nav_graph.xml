@@ -28,4 +28,9 @@
             app:nullable="true"
             android:defaultValue="@null"/>
     </fragment>
+    <fragment
+        android:id="@+id/passwordFragment"
+        android:name="com.example.password_manager_room.fragment.PasswordFragment"
+        android:label="fragment_password"
+        tools:layout="@layout/fragment_password" />
 </navigation>
