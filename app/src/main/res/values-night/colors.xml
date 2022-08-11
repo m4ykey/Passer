@@ -8,5 +8,9 @@
     <color name="img_color">@color/white</color>
     <color name="fab_color_tint">@color/black</color>
     <color name="logo_color">@color/white</color>
+    <color name="unselected_text">#9E9E9E</color>
+    <color name="selected_text">@color/white</color>
+    <color name="selected_icon">@color/white</color>
+    <color name="unselected_icon">#9E9E9E</color>
 
 </resources>

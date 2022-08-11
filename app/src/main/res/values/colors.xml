@@ -15,5 +15,9 @@
     <color name="img_color">@color/black</color>
     <color name="fab_color_tint">@color/white</color>
     <color name="logo_color">@color/black</color>
+    <color name="unselected_text">#BDBDBD</color>
+    <color name="selected_text">#757575</color>
+    <color name="selected_icon">#757575</color>
+    <color name="unselected_icon">#BDBDBD</color>
 
 </resources>
