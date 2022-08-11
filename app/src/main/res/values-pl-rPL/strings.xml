@@ -3,7 +3,7 @@
     <string name="app_name">Passger</string>
     <string name="add">Dodaj</string>
     <string name="password">Hasło</string>
-    <string name="email">Email</string>
+    <string name="email">Email lub nazwa użytkownika</string>
     <string name="company">Firma</string>
     <string name="search">Szukaj</string>
     <string name="update">Aktualizuj</string>

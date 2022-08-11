@@ -8,7 +8,7 @@
     tools:context=".fragment.HomeFragment">
 
     <ImageView
-        android:backgroundTint="@color/img_color"
+        app:tint="@color/img_color"
         android:id="@+id/imgDeleteAll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
