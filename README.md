@@ -9,4 +9,9 @@ This is a simple application example with
 - [Lifecycle]("https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=en")
 
 ## Screenshots
-![Main Screen]("screenshots/d1.jpg")
+| Main Screen             | Add                     | Generate Password       |
+| ----------------------- | ----------------------- | ----------------------- |
+| ![](screenshots/l1.jpg) | ![](screenshots/l2.jpg) | ![](screenshots/l3.jpg) |
+| Dark Main Screen        | Dark Add                | Dark Generate Password  |
+| ![](screenshots/d1.jpg) | ![](screenshots/d2.jpg) | ![](screenshots/d3.jpg) |
+
