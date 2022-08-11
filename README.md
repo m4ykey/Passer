@@ -9,4 +9,4 @@ This is a simple application example with
 - [Lifecycle]("https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=en")
 
 ## Screenshots
-![Main Screen]("d1.jpg")
+![Main Screen]("screenshots/d1.jpg")
