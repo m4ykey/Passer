@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Passger</string>
+    <string name="app_name">Passer</string>
     <string name="add">Dodaj</string>
     <string name="password">Hasło</string>
     <string name="email">Email lub nazwa użytkownika</string>
@@ -8,7 +8,7 @@
     <string name="search">Szukaj</string>
     <string name="update">Aktualizuj</string>
     <string name="allfields">Proszę wypełnić wszystkie puste pola</string>
-    <string name="application_passger_blocked">Aplikacja PASSGER jest zablokowana</string>
+    <string name="application_passger_blocked">Aplikacja Passer jest zablokowana</string>
     <string name="unlock">Odblokuj</string>
     <string name="home">Ekran Główny</string>
     <string name="generate_password">Wygeneruj Hasło</string>
