@@ -9,10 +9,11 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="bg">@color/white</color>
-    <color name="fab">#2196F3</color>
+    <color name="fab">@color/black</color>
     <color name="text_color">@color/black</color>
     <color name="text_color_btn">@color/white</color>
     <color name="img_color">@color/black</color>
     <color name="fab_color_tint">@color/white</color>
+    <color name="logo_color">@color/black</color>
 
 </resources>

@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/drawable-v24/ic_logo_black.xml" value="0.2265" />
+        <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/drawable-v24/ic_logo_white.xml" value="0.2265" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/activity_finger.xml" value="0.25" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/fragment_add.xml" value="0.25" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/fragment_home.xml" value="0.2359375" />
-        <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/item_layout.xml" value="0.264" />
+        <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/item_layout.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Passger</string>
+    <string name="add">Dodaj</string>
+    <string name="password">Hasło</string>
+    <string name="email">Email lub nazwa użytkownika</string>
+    <string name="company">Firma</string>
+    <string name="search">Szukaj</string>
+    <string name="update">Aktualizuj</string>
+    <string name="allfields">Proszę wypełnić wszystkie puste pola</string>
+    <string name="application_passger_blocked">Aplikacja PASSGER zablokowana</string>
+    <string name="unlock">Odblokuj</string>
+</resources>

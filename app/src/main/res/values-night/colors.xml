@@ -7,4 +7,6 @@
     <color name="text_color_btn">@color/black</color>
     <color name="img_color">@color/white</color>
     <color name="fab_color_tint">@color/black</color>
+    <color name="logo_color">@color/white</color>
+
 </resources>

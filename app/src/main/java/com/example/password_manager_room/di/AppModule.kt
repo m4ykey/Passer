@@ -16,13 +16,13 @@ object AppModule {
 
     @Singleton
     @Provides
-    fun getAppDatabase(application : Application) : AccountDatabase{
+    fun provideAppDatabase(application : Application) : AccountDatabase{
         return AccountDatabase.getDatabase(application)
     }
 
     @Singleton
     @Provides
-    fun getDao(accountDatabase: AccountDatabase) : AccountDao {
+    fun provideDao(accountDatabase: AccountDatabase) : AccountDao {
         return accountDatabase.accountDao
     }
 }
