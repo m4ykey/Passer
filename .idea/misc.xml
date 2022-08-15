@@ -7,8 +7,11 @@
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/drawable-v24/ic_logo_white.xml" value="0.2265" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/drawable/bottom_nav_color.xml" value="0.2265" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/drawable/bottom_nav_color_text.xml" value="0.2265" />
+        <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/drawable/select_color_item.xml" value="0.2255" />
+        <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/drawable/select_item.xml" value="0.2255" />
+        <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/drawable/select_item_password.xml" value="0.2255" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/activity_finger.xml" value="0.25" />
-        <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/fragment_add.xml" value="0.25" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/fragment_home.xml" value="0.2359375" />
         <entry key="..\:/Android/PasswordManagerRoom/app/src/main/res/layout/fragment_password.xml" value="0.25" />

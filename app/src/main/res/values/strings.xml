@@ -7,7 +7,7 @@
     <string name="search">Search</string>
     <string name="update">Update</string>
     <string name="allfields">Please fill out all fields</string>
-    <string name="application_passer_blocked">Application Passer blocked</string>
+    <string name="application_passer_blocked">Application Passer is blocked</string>
     <string name="unlock">Unlock</string>
     <string name="home">Home</string>
     <string name="generate_password">Generate Password</string>
@@ -16,5 +16,5 @@
     <string name="generate">Generate</string>
     <string name="cancel">Cancel</string>
     <string name="unlock_to_continue">Please unlock to proceed</string>
-    <string name="lock_screen_application">Enter your screen lock to access app</string>
+    <string name="lock_screen_application">Enter your screen lock to access "Passer"</string>
 </resources>
