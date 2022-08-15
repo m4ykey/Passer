@@ -15,4 +15,7 @@
     <string name="if_you_have_no_idea_what_password_to_enter_generate_it">Jeśli nie masz pojęcia jakie hasło wpisać, wygeneruj je</string>
     <string name="generate_it">Wygeneruj je</string>
     <string name="generate">Wygeneruj</string>
+    <string name="cancel">Anuluj</string>
+    <string name="unlock_to_continue">Odblokuj, aby kontynuować</string>
+    <string name="lock_screen_application">Wprowadź blokadę ekranu, aby uzyskać dostęp do aplikacji</string>
 </resources>

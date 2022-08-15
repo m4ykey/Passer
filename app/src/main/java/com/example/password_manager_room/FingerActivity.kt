@@ -44,9 +44,9 @@ class FingerActivity : AppCompatActivity() {
         val btnUnlock : Button = findViewById(R.id.btnUnlock)
         btnUnlock.setOnClickListener {
             val biometricPrompt = BiometricPrompt.Builder(this)
-                .setTitle("Wprowadź blokadę ekranu, aby uzyskać dostęp do aplikacji")
-                .setDescription("Odblokuj, aby kontynuować")
-                .setNegativeButton("Anuluj", this.mainExecutor) { _, _ ->
+                .setTitle(getString(R.string.lock_screen_application))
+                .setDescription(getString(R.string.unlock_to_continue))
+                .setNegativeButton(getString(R.string.cancel), this.mainExecutor) { _, _ ->
                     Toast.makeText(this, "Authentication cancelled", Toast.LENGTH_SHORT).show()
                 }.build()
 
