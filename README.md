@@ -15,6 +15,3 @@ This is a simple application example with
 | ![](screenshots/l1.jpg) | ![](screenshots/l2.jpg) | ![](screenshots/l3.jpg) |
 | Dark Main Screen        | Dark Add                | Dark Generate Password  |
 | ![](screenshots/d1.jpg) | ![](screenshots/d2.jpg) | ![](screenshots/d3.jpg) |
-
-## Download
-[Passer](app/passer.apk)
