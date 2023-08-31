@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Password-Manager-Room"
-include ':app'
+include(":app")
