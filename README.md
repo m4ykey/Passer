@@ -10,8 +10,8 @@ This is a simple application example with
 - [ViewBinding](https://developer.android.com/reference/tools/gradle-api/7.3/com/android/build/api/dsl/ViewBinding?hl=en)
 
 ## Screenshots
-| Main Screen             | Add                     | Generate Password       |
-| ----------------------- | ----------------------- | ----------------------- |
+| Main Screen | Add | Generate Password |
+| :---: | :---: | :---: |
 | ![](screenshots/l1.jpg) | ![](screenshots/l2.jpg) | ![](screenshots/l3.jpg) |
-| Dark Main Screen        | Dark Add                | Dark Generate Password  |
+| Dark Main Screen | Dark Add | Dark Generate Password  |
 | ![](screenshots/d1.jpg) | ![](screenshots/d2.jpg) | ![](screenshots/d3.jpg) |
